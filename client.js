@@ -96,6 +96,8 @@ socket.on("data", async (data) => {
   else if (dataString.substring(0, 8) === "userList") {
 
     Users = JSON.parse(dataString.substring(9));
+
+    console.log("User List:\n");
     // Log User List
     Users.map((user, index) => {
       if(user.id !== id) console.log(`${index}. ${user.name} \n`);
