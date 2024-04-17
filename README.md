@@ -24,6 +24,8 @@ node server.js
 node client.js
 ```
 
+## Interface
+
 **Enter your name:**
 ```shell
 [Enter your Name > 
