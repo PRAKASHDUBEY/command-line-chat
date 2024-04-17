@@ -1,7 +1,6 @@
-# Chat App with TCP Socket API
+# Chat
 
-This is a simple chat app built using Node.js's `net` module to create a TCP socket API. The server is responsible for establishing TCP connections, broadcasting messages, and handling user activity. 
-The client can create an account, select a user to talk to, and send messages.
+This is a simple communication interface on command line built using Node.js's `net` module. The server handles all the user activity. The client can create an account, select a user to talk to, and send messages.
 
 ## Getting Started
 
@@ -12,7 +11,7 @@ git clone https://github.com/PRAKASHDUBEY/Socket-API.git
 
 **Navigate to the project directory:**
 ```shell
-cd Socket-API
+cd command-line-chat
 ```
 
 **Start the server:**
